@@ -26,10 +26,10 @@
 
 ## Generate an Application Key
 
-1. php artisan key:generate
-2.composer install
-3.php artisan migrate
-4.php artisan serve
+1. php artisan key:generate.
+2.composer install.
+3.php artisan migrate.
+4.php artisan serve.
 
 ## API Endpoints
 
