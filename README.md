@@ -15,6 +15,22 @@
 4. Run `php artisan migrate`.
 5. Run `php artisan serve`.
 
+## Configure the `.env` file
+
+1. DB_CONNECTION=mysql
+2. DB_HOST=127.0.0.1
+3. DB_PORT=3306
+4. DB_DATABASE=ToDo-Api
+5. DB_USERNAME=root
+6. DB_PASSWORD=
+
+## Generate an Application Key
+
+1. php artisan key:generate
+2.composer install
+3.php artisan migrate
+4.php artisan serve
+
 ## API Endpoints
 
 - **Create Task:** POST `/api/tasks`
